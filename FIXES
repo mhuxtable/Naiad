@@ -1,0 +1,13 @@
+For Debian et al. compilation, run
+
+sudo mozroots --import --machine --sync
+sudo certmgr -ssl -m https://go.microsoft.com
+sudo certmgr -ssl -m https://nugetgallery.blob.core.windows.net
+sudo certmgr -ssl -m https://nuget.org
+
+to fix "Error getting response stream (Write: The authentication or decryption has failed.): SendFailure"
+whereby the NuGet package manager cannot download requisite extensions.
+
+
+Delete support for WebHdfs etc from the solution because it depends on managed C++ which won't compile
+(at least not easily) under Mono.
