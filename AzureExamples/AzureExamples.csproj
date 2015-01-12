@@ -13,6 +13,8 @@
     <FileAlignment>512</FileAlignment>
     <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
     <RestorePackages>true</RestorePackages>
+    <ProductVersion>12.0.0</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -42,6 +44,8 @@
     <ErrorReport>prompt</ErrorReport>
     <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
     <Prefer32Bit>true</Prefer32Bit>
+    <WarningLevel>4</WarningLevel>
+    <Optimize>false</Optimize>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
     <OutputPath>bin\x64\Release\</OutputPath>
@@ -52,6 +56,7 @@
     <ErrorReport>prompt</ErrorReport>
     <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
     <Prefer32Bit>true</Prefer32Bit>
+    <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.Data.Edm, Version=5.6.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
@@ -106,19 +111,19 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Frameworks\AzureSupport\AzureSupport.csproj">
-      <Project>{e2347f7a-ddb2-4ccd-8a37-44202d7bbaa7}</Project>
+      <Project>{E2347F7A-DDB2-4CCD-8A37-44202D7BBAA7}</Project>
       <Name>AzureSupport</Name>
     </ProjectReference>
     <ProjectReference Include="..\Frameworks\GraphLINQ\GraphLINQ.csproj">
-      <Project>{bdbeaca4-1235-4fdc-bbf5-9f9b7ab553ad}</Project>
+      <Project>{BDBEACA4-1235-4FDC-BBF5-9F9B7AB553AD}</Project>
       <Name>GraphLINQ</Name>
     </ProjectReference>
     <ProjectReference Include="..\Frameworks\Lindi\Lindi.csproj">
-      <Project>{bdc6546c-7ba0-472b-b260-0d596b6152e4}</Project>
+      <Project>{BDC6546C-7BA0-472B-B260-0D596B6152E4}</Project>
       <Name>Lindi</Name>
     </ProjectReference>
     <ProjectReference Include="..\Naiad\Naiad.csproj">
-      <Project>{a6221415-1283-4c04-8d2c-e25a857e1fe9}</Project>
+      <Project>{A6221415-1283-4C04-8D2C-E25A857E1FE9}</Project>
       <Name>Naiad</Name>
     </ProjectReference>
   </ItemGroup>
