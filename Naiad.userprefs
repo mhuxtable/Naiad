@@ -1,10 +1,12 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="../kmeans2/Program.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="../WebServer/Program.cs">
     <Files>
-      <File FileName="../k-means/Program.cs" Line="124" Column="5" />
-      <File FileName="../kmeans2/Coordinate.cs" Line="9" Column="3" />
-      <File FileName="../kmeans2/Program.cs" Line="9" Column="35" />
+      <File FileName="../kmeans2/Coordinate.cs" Line="33" Column="4" />
+      <File FileName="../kmeans2/Program.cs" Line="57" Column="9" />
+      <File FileName="../kmeans2/Distance.cs" Line="17" Column="69" />
+      <File FileName="../kmeans2/Kmeans.cs" Line="125" Column="5" />
+      <File FileName="../WebServer/Program.cs" Line="80" Column="4" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
